@@ -1,8 +1,97 @@
-<!DOCTYPE html>
-<head>
-  <title>b l a n k</title>
+<html>
+  <head>
+    <title>Icon Template Square</title>
+    <style>
+      .row {
+        width: 720px;
+        margin: 10px auto 10px auto;
+      }
+      .image-container {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 20px;
+      }
+    </style>
+    
+  </head>
+  <style>
+body
+{
+	background-color:#b0c4de;
+}
+</style>
 </head>
 
 <body>
-  This is Spike's website!!
-</body>
+
+  <body>
+    <div class="row">
+      <div class="image-container">
+        <img id="T1" src="901.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T2" src="802.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T3" src="703.jpg" alt="jiro" height="200" width="200" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="image-container">
+        <img id="T4" src="604.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T5" src="505.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T6" src="406.jpg" alt="jiro" height="200" width="200" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="image-container">
+        <img id="T7" src="307.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T8" src="208.jpg" alt="jiro" height="200" width="200" />
+      </div>
+      <div class="image-container">
+        <img id="T9" src="109.jpg" alt="jiro" height="200" width="200" />
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  const t1 = document.getElementById("T1");
+  const t1_audio = new Audio("D1.mp3");
+  T1.onpointerdown = () => {
+    t1_audio.play();
+    t1.src = "802.jpg";
+    setTimeout(() => (t1.src = "901.jpg"), 1000);
+  };
+  const t2 = document.getElementById("T2");
+  const t2_audio = new Audio("D2.mp3");
+  T2.onpointerdown = () => t2_audio.play();
+  const t3 = document.getElementById("T3");
+  const t3_audio = new Audio("D3.mp3");
+  T3.onpointerdown = () => t3_audio.play();
+  const t4 = document.getElementById("T4");
+  const t4_audio = new Audio("D4.mp3");
+  T4.onpointerdown = () => t4_audio.play();
+  const t5 = document.getElementById("T5");
+  const t5_audio = new Audio("D5.mp3");
+  T5.onpointerdown = () => t5_audio.play();
+  const t6 = document.getElementById("T6");
+  const t6_audio = new Audio("D6.mp3");
+  T6.onpointerdown = () => t6_audio.play();
+  const t7 = document.getElementById("T7");
+  const t7_audio = new Audio("D7.mp3");
+  T7.onpointerdown = () => t7_audio.play();
+  const t8 = document.getElementById("T8");
+  const t8_audio = new Audio("D8.mp3");
+  T8.onpointerdown = () => t8_audio.play();
+  const t9 = document.getElementById("T9");
+  const t9_audio = new Audio("D9.mp3");
+  T9.onpointerdown = () => t9_audio.play();
+</script>
